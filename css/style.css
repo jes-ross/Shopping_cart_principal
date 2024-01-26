@@ -1,0 +1,302 @@
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+.shopping img{
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 50% 50%;
+}
+
+
+.main{
+    
+    height: 400px;
+    width: 700px;
+    
+    
+    
+}
+.shopping{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+
+.separador_1{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    
+    
+    
+}
+
+.separador_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    
+    
+}
+
+
+
+.separador_padre{
+    margin-top: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    height: 400px;
+    width: 500px;
+}
+.pro-1{
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.pro-2{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.pro-3{
+    float: right;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.Products{
+    justify-content: space-between;
+    display: flex;
+    height: 700px;
+    width: 500px;
+    
+    
+    
+}
+.Products_2{
+    justify-content: space-between;
+    display: flex;
+    height: 400px;
+    width: 500px;
+    
+    
+}
+
+.pro-4{
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+.pro-5{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.pro-6{
+    float: right;
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+    transition: all 400ms ease;
+}
+body{
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+h4{
+    background-color: #fff;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+p{
+    background-color: #fff;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pro-1 div, .pro-2 div, .pro-3 div{
+    background-color: #fff;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    
+    
+    
+}
+
+.pro-1 img, .pro-2 img, .pro-3 img, .pro-4 img, .pro-5 img, .pro-6 img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.pro-1:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    transform: translateY(-3%);
+
+}
+.pro-2:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    transform: translateY(-3%);
+
+}
+.pro-3:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    transform: translateY(-3%);
+
+}
+.pro-4:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    transform: translateY(-3%);
+
+}
+.pro-5:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    transform: translateY(-3%);
+
+}
+.pro-6:hover{
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    transform: translateY(-3%);
+
+}
+
+.scroll{
+    
+
+}
+.navigation{
+    position: fixed;
+    
+    
+
+}
+
+.btn-1{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.btn-2{
+    display: flex;
+    justify-content: center;
+}
+.btn-3{
+    display: flex;
+    justify-content: center;
+}
+.btn-4{
+    display: flex;
+    justify-content: center;
+}
+.btn-5{
+    display: flex;
+    justify-content: center;
+}
+.btn-6{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-2 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-3 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-4 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-5 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-6 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background-color: green;
+}
